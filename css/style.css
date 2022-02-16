@@ -1,0 +1,88 @@
+@import "nule.css";
+@import url(https://fonts.googleapis.com/css?family=Lobster:regular&display=swap);
+.wrapper{
+   overflow: hidden;
+   min-height: 100%;
+   font-family: Lobster, sans-serif;
+   background-image: url("../img/avocado.jpeg");
+}
+.block1{
+   font-size: 30px;
+   max-width: 700px;
+   border: 3px solid rgb(9, 23, 219);
+   text-align: justify;
+   padding: 20px;
+   margin: 50px 0px 0px 50px;
+   background-color: rgba(213, 210, 250, 0.8);
+   margin-bottom: 50px;
+   border-radius: 30px;
+}
+.block2{
+   font-size: 30px;
+   max-width: 700px;
+   color: rgb(144, 214, 13);
+   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+   border: 3px solid rgb(219, 93, 9);
+   background:lightpink;
+   text-align: justify;
+   padding: 100px;
+   margin: 0px auto 50px;
+   background-image: url("../img/vds.jpg");
+   background-size: 50%;
+}
+.block3{
+   font-size: 30px;
+   max-width: 700px;
+   text-align: justify;
+   color: lightcyan;
+   padding: 20px;
+   margin: 0px 0px 50px 50px;
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(153,36,143,0.7844378591954023) 33%, rgba(97,88,174,1) 62%, rgba(45,136,202,1) 75%, rgba(18,182,234,1) 90%, rgba(0,212,255,1) 100%);
+   border-radius: 30px;
+}
+.block4{
+   font-size: 25px;
+   padding: 150px;
+   background-color: rgb(255, 255, 255);
+   background: url("../img/kot.gif") 0 0 no-repeat, url("../img/kot2.gif") bottom right no-repeat, url("../img/ea.jpg");
+   /*background-repeat: no-repeat;
+   background-position: 0 0;*/
+   margin: 0px 0px 30px 0px;
+}
+.block5{
+   font-size: 30px;
+   max-width: 700px;
+   text-align: justify;
+   padding: 100px;
+   margin: 0px auto 50px;
+   background-color: cadetblue;
+   background-image: url("../img/srisovki-24.jpg");
+   background-size: cover;
+   background-position: center;
+   border-radius: 30px;
+}
+.block6{
+   font-size: 35px;
+   color: gainsboro;
+   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+   padding: 100px 300px;
+   margin-bottom: 50px;
+   background: url("../img/b080.jpeg") center / cover no-repeat fixed;
+   /*
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   */
+}
+.block7{
+   font-size: 30px;
+   max-width: 400px;
+   max-height: 250px;
+   text-align: justify;
+   margin: 0px auto 50px;
+   padding: 50px;
+   overflow: auto;
+   background: url("../img/720.jpg") center no-repeat local;
+   border-radius: 30px;
+}
